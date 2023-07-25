@@ -48,3 +48,32 @@
     color: black;
     transition: 0.5s;
 }
+
+
+
+
+@media only screen and (max-width: 640px) {
+    .nav-links {
+        position: fixed;
+        top: 0;
+        left: -288px;
+        bottom: 0;
+        min-width: 18rem;
+        background-color: rgba(0, 0, 0, 0.85);
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 950px) {
+    .nav__btn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    
+}
