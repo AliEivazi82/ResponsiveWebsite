@@ -3,7 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+#navbar {
+    width: 100%;
+}
 .container {
     max-width: 80%;
     margin: auto;
+}
+.wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.2rem;
+}
+.nav-links {
+    flex-basis: 30rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav__link {
+    list-style: none;
+}
+.link__link {
+    color: black;
+    text-decoration: none;
+}
+.link__link:hover {
+    color: gray;
+}
+.nav__btn {
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2.5px black;
+    border-radius: 0.8rem;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.nav__btn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
 }
