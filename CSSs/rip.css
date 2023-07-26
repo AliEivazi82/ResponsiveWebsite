@@ -7,7 +7,7 @@
     width: 100%;
 }
 .container {
-    max-width: 80%;
+    max-width: 65%;
     margin: auto;
 }
 .wraper {
@@ -63,24 +63,38 @@
         left: -288px;
         bottom: 0;
         min-width: 18rem;
-        background-color: rgba(0, 0, 0, 0.85);
+        background-color: rgba(0, 0, 0, 0.8);
         flex-direction: column;
     }
     .nav__icon {
         display: block;
     }
+    .container {
+        max-width: 100%;
+    }
+    .link__link {
+        color: white;
+        text-shadow: 1px 1px 10px white;
+    }
 }
 
 @media only screen and (max-width: 768px) {
-    
+    .container {
+        max-width: 95%;
+    }
 }
 
 @media only screen and (max-width: 950px) {
     .nav__btn {
         display: none;
     }
+    .container {
+        max-width: 85%;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
-    
+    .container {
+        max-width: 80%;
+    }
 }
