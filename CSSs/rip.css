@@ -16,6 +16,9 @@
     align-items: center;
     padding: 3.2rem;
 }
+.nav-logo {
+    cursor: pointer;
+}
 .nav-links {
     flex-basis: 30rem;
     display: flex;
@@ -42,6 +45,7 @@
     background-color: black;
     color: white;
     transition: 0.5s;
+    cursor: pointer;
 }
 .nav__btn:hover {
     background-color: white;
@@ -86,6 +90,108 @@
 }
 .main-content__btn {
     display: none;
+}
+
+
+.footer {
+    max-width: 100%;
+    background-color: black;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4rem 0;
+}
+.footer-top__card {
+    max-width: 20rem;
+    height: 28.5rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 1rem;
+    margin: 2rem;
+    justify-content: start;
+    align-items: center;
+    border-radius: 1.6rem;
+}
+.footer-top__pic {
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+.footer-top__img {
+    max-width: 261px;
+    transition: 0.7s;
+}
+.footer-top__img:hover {
+    max-width: 280px;
+    transition: 0.7s;
+}
+.footer-top__content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.footer-content__title {
+    margin-bottom: 1.5rem;
+}
+.footer-content__text {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+.footer-top__btn {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    padding-right: 1rem;
+}
+.footer-card__btn {
+    padding: 0.7rem 1.3rem;
+    background-color: lawngreen;
+    font-size: 1rem;
+    border: 2.5px solid lawngreen;
+    border-radius: 0.4rem;
+    transition: 0.4s;
+}
+.footer-card__btn:hover {
+    background-color: white;
+    transition: 0.4s;
+}
+
+.footer-bottom {
+
+}
+.footer-bottom__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    padding-bottom: 4rem;
+}
+.footer-bottom__btn {
+    padding: 1rem 1.5rem;
+    background-color: black;
+    border: 2.5px solid white;
+    color: white;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+.footer-bottom__btn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+.btn__icon {
+    font-size: 1.5rem;
 }
 
 
