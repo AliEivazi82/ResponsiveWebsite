@@ -48,6 +48,10 @@
     color: black;
     transition: 0.5s;
 }
+.nav__icon {
+    font-size: 1.5rem;
+    display: none;
+}
 
 
 
@@ -61,6 +65,9 @@
         min-width: 18rem;
         background-color: rgba(0, 0, 0, 0.85);
         flex-direction: column;
+    }
+    .nav__icon {
+        display: block;
     }
 }
 
