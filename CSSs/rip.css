@@ -7,7 +7,7 @@
     width: 100%;
 }
 .container {
-    max-width: 65%;
+    max-width: 80%;
     margin: auto;
 }
 .wraper {
@@ -79,22 +79,16 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .container {
-        max-width: 95%;
-    }
+
 }
 
 @media only screen and (max-width: 950px) {
     .nav__btn {
         display: none;
     }
-    .container {
-        max-width: 85%;
-    }
+
 }
 
 @media only screen and (max-width: 1200px) {
-    .container {
-        max-width: 80%;
-    }
+
 }
