@@ -152,14 +152,16 @@
 }
 .footer-card__btn {
     padding: 0.7rem 1.3rem;
-    background-color: lawngreen;
+    background-color: white;
+    color: lawngreen;
     font-size: 1rem;
     border: 2.5px solid lawngreen;
     border-radius: 0.4rem;
     transition: 0.4s;
 }
 .footer-card__btn:hover {
-    background-color: white;
+    background-color: lawngreen;
+    color: rgb(6, 27, 0);
     transition: 0.4s;
 }
 
